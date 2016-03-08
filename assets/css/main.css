@@ -88,6 +88,8 @@ body {
   font-weight: 300;
   color: #fff;
   background: #6F89C9;
+  z-index: 30;
+  position: relative;
   margin: 0;
   padding: 0;
 }
