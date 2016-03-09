@@ -12,6 +12,6 @@ def newEmail():
 	else: 	return 'Invalid request! Argument "email" missing!'
 
 if __name__ == '__main__':
-	app.debug=True
-	app.run('0.0.0.0')
+	port = int(os.environ.get("PORT",80))
+	app.run('0.0.0.0', port=port, debug=True)
 
