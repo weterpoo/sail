@@ -20,6 +20,7 @@ body {
 	background-color: #6F89C9;
 	height: 100%;
 	width: 100%;
+	overflow-y: hidden;
 }
 
 /*#navbar {
